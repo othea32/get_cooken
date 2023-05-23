@@ -44,6 +44,46 @@ ul li.active a {
  margin: auto;
 }
 
+.title {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+.title h1 {
+ color: green;
+ font-size: 70px;
+}
+
+.button {
+ position: absolute;
+ top: 62%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+.btn {
+ border: 1px solid green;
+ padding: 10px 30px;
+ color: green;
+ text-decoration: none;
+ transition: 0.6s ease;
+ font-size: 18px;
+}
+
+.btn:hover {
+ background-color: green;
+ color: white;
+}
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="styles/login.css">
+ <style>
+  body{
+   background: linear-gradient(109.6deg, rgb(251, 250, 225) 11.2%, rgb(206, 240, 185) 47.5%, rgb(100, 163, 111) 100.2%);
+  }
+  table{
+   margin: 0 auto;
+   margin-top: 50px;
+  }
+  th{
+   background-color: rgb(100, 163, 111);
+  }
+  td{
+   background-color: rgb(206, 240, 185);
+  }
+  th, td{
+   padding: 10px;
+   border: 1px solid #000;
+  }
+  th{
+   text-align: left;
+  }
+  td{
+   text-align: center;
+  }
+  h1{
+   text-align: center;
+   margin-top: 50px;
+  }
+  p{
+   text-align: center;
+  }
+  
+ </style>
+</head>
+<body>
+ <div>
+  <div class="main">
+    <ul>
+     <li class="active"><a href="#">Home</a></li>
+     <li><a href="#">Logout</a></li>
+    </ul>
+    
+  </div>
+  <div>
+    <h1>Admin Page</h1>
+  </div>
+ 
+  <table class="table table-bordered">
+   <thead>
+     <tr>
+       <th scope="col">#</th>
+       <th scope="col">First Name</th>
+       <th scope="col">Last Name</th>
+       <th scope="col">Email</th>
+       <th scope="col">Phone</th>
+       <th scope="col">Action</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <th scope="row">1</th>
+       <td>Othea</td>
+       <td>Major</td>
+       <td>@gmail</td>
+       <td>123.456.7890</td>
+       <td>
+        <button type="button" class="btn btn-secondary d-flex flex-row">View</button>
+        <button type="button" class="btn btn-secondary">Edit</button>
+        <button type="button" class="btn btn-secondary">Delete</button>
+       </td>
+     </tr>
+     <tr>
+       <th scope="row">2</th>
+       <td>Jacob</td>
+       <td>Thornton</td>
+       <td>@gmail</td>
+       <td>123.456.7890</td>
+       <td>
+        <button type="button" class="btn btn-secondary d-flex flex-row">View</button>
+        <button type="button" class="btn btn-secondary">Edit</button>
+        <button type="button" class="btn btn-secondary">Delete</button>
+       </td>
+     </tr>
+     <tr>
+       <th scope="row">3</th>
+       <td>Larry</td>
+       <td>Jackson</td>
+       <td>@gmail</td>
+       <td>123.456.7890</td>
+       <td>
+        <button type="button" class="btn btn-secondary d-flex flex-row">View</button>
+        <button type="button" class="btn btn-secondary">Edit</button>
+        <button type="button" class="btn btn-secondary">Delete</button>
+       </td>
+     </tr>
+   </tbody>
+ </table>
+ </div>
+</body>
+</html>
