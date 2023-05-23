@@ -14,7 +14,7 @@ ul {
  margin-top: 30px;
  min-height: 400px;
  margin-right: 60px;
- font-size: 17px;
+ font-size: 16px;
 }
 
 ul li {
@@ -75,6 +75,47 @@ ul li.active a {
 .btn:hover {
  background-color: green;
  color: white;
+}
+
+.logo img {
+ float: left;
+ width: 150px;
+ height: auto;
+ margin-top: 20px;
+ margin-left: 20px;
+}
+
+.sub {
+ display: none;
+ top: 6%;
+ position: relative;
+}
+
+.sub ul {
+ position: absolute;
+}
+
+.main ul li:hover .sub {
+ display: block;
+ position: absolute;
+ background-color: green;
+ margin-top: 12px;
+ margin-left: -8px;
+}
+
+.main ul li:hover .sub ul {
+ display: block;
+ margin: 6px;
+}
+
+.main ul li:hover .sub ul li{
+ width: 75px;
+ padding: 5px;
+ border-bottom: 1px green solid;
+ background: transparent;
+ text-align: left;
+ transition: 0.6s ease;
+ border-radius: 0px;
 }
 
 

@@ -7,27 +7,33 @@
  <title>Home Page</title>
 
  
- <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
  <header>
   <div class="main">
+   <div class="logo">
+    <img src="images/logo.png" alt="">
+   </div>
    <ul>
     <li class="active"><a href="#">Home</a></li>
     <li><a href="#">About</a></li>
     <li><a href="#">Dessert</a></li>
     <li><a href="#">Snacks</a></li>
     <li><a href="#">Pasta</a></li>
-    <li><a href="#">Salad</a></li>
+    <li><a href="#"><i class="fa-solid fa-chevrons-down"></i> More Recipes</a>
+    <div class="sub">
+     <ul>
+      <li><a href="#">Breakfast</a></li>
+      <li><a href="#">Lunch</a></li>
+      <li><a href="#">Dinner</a></li>
+      
+     </ul>
+    </div>
+   </li>
+    
    </ul>
-   <div>
-    <label for="misc"></label>
-    <select name="misc">
-    <option value="sandwich">Sandwich</option>
-    <option value="pizza">Pizza</option>
-    <option value="burger">Burger</option>
-   </select>
-   </div>
+   
   </div>
   <div>
    <div class="title">
@@ -39,6 +45,6 @@
    </div>
   </div>
  </header>
- 
 </body>
+<script src="https://kit.fontawesome.com/0f2fa87725.js" crossorigin="anonymous"></script>
 </html>
